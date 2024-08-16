@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#infoPersonal {
+    background-color: #294A77;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1; 
+    box-sizing: border-box;
+}
+
+#infoPersonal h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#infoPersonal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Idiomas, #HabilidadesBlandas, #HabilidadesTecnicas, #Resumen, #Historial {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 19%;
+    box-sizing: border-box;
+}
+
+#Idiomas h3, #HabilidadesBlandas h3, #HabilidadesTecnicas h3, #Resumen h3, #Historial h3 {
+    color: #294A77;
+    border-bottom: 2px solid #294A77;
+    display:inline-block;
+    padding-bottom: 5px;
+}
+
+#Idiomas ul, #HabilidadesBlandas ul, #HabilidadesTecnicas ul, #Resumen ul, #Historial ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Historial ul {
+    margin: 0;
+    padding: 0;
+}
+
+#Historial h4 {
+    margin: 10px 0 5px;
+}
+
+#Aptitudes {
+    position:absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 19%;
+    height:100%;
+    z-index: 2;
+}
+
+#Aptitudes img {
+    margin: 10% auto;
+    border-radius: 10%;
+    border: 5px solid #bab0b0;
+}
+
+#Aptitudes ul {
+    padding: 0;
+}
+
+#Aptitudes ul li {
+    margin: 5px 0;
+}
+
+#Idiomas, #HabilidadesBlandas, #HabilidadesTecnicas, #Resumen, #Historial {
+    margin-left: 19%;
+}
